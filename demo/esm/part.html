@@ -1,0 +1,42 @@
+<h1>Demo</h1>
+<style>
+  div {
+    margin: 10px 0;
+  }
+</style>
+
+<div id="app"></div>
+<script type="module">
+  import { createApp } from "vue/dist/vue.esm-bundler.js";
+  import { MButton, MInput, MToast, MTimer } from "../../dist/maas-ui.mjs";
+
+  const App = {
+    components: {
+      MButton,
+      MInput,
+      MToast,
+      MTimer,
+    },
+    template: `
+      <div>局部组件测试</div>
+
+      <div>
+        <MButton/>
+      </div>
+
+      <div>
+        <MInput/>
+      </div>
+
+      <div>
+        <MToast/>
+      </div>
+
+      <div>
+        <MTimer/>
+      </div>
+    `
+  }
+
+  createApp(App).mount("#app");
+</script>
