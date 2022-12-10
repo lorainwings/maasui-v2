@@ -7,9 +7,9 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,7 +26,7 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Run Lint
-        run: pnpm run lint
+        run: pnpm lint
   UnitTest:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Run Test
-        run: pnpm run test:run
+        run: pnpm test:run
   PreBuild:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -51,5 +51,5 @@ jobs:
           version: 7.2.1
       - name: Install modules
         run: pnpm install
-      - name: Run Lint
-        run: pnpm run build
+      - name: Run Build
+        run: pnpm build
