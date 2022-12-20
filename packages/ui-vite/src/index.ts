@@ -1,6 +1,6 @@
 import { createApp } from "vue/dist/vue.esm-browser";
 
-import MaasUI from './entry'
+import MaasUI from "./entry";
 
 const options = {
   template: `
@@ -38,10 +38,7 @@ const options = {
        <MButton color="yellow" round plain icon="message"></MButton>
        <MButton color="red" round plain icon="delete"></MButton>
    </div>
-       `
-}
+       `,
+};
 
-createApp(options)
-  .use(MaasUI)
-  .mount("#app");
-
+createApp(options).use(MaasUI).mount("#app");

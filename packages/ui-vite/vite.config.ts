@@ -20,6 +20,7 @@ export default defineConfig({
     rollupOptions: {
       external: ["vue", "vue-router"],
       output: {
+        assetFileNames: "assets/[name][extname]",
         globals: {
           vue: "Vue",
         },

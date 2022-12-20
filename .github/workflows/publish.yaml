@@ -21,7 +21,7 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Build
-        run: pnpm build
+        run: pnpm --filter "./packages/ui-vite" build
       - name: 'Publish to the npm registry'
         uses: primer/publish@3.0.0
         env:
@@ -29,4 +29,4 @@ jobs:
           NPM_ACCESS_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
         with:
           default_branch: "publish"
-          dir: "dist"
+          dir: "packages/ui-vite/dist"

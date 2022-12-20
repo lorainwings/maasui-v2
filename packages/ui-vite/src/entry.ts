@@ -1,5 +1,5 @@
 import { App } from "vue";
-import MButton from "./button";
+import MButton from "./Button";
 import MInput from "./input";
 import MToast from "./toast/index.vue";
 import MTimer from "./timer";

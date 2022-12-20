@@ -1,6 +1,6 @@
 # MaasUI
 
-MaasUI组件库的Monorepo仓库
+一个UI组件库的模板库
 
 ## Features
 
