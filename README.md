@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-<a href="https://maasui-v2-g18n.vercel.app" target="_blank" style="font-size:20px">
+<a href="https://maasui-v2.vercel.app/" target="_blank" style="font-size:20px">
 <!-- <img src="https://sli.dev/logo-title.png" alt="Slidev" height="250" width="250"/> -->
 MaasUI
 </a>
@@ -17,7 +17,7 @@ MaasUI
  </a>
 <a target="__blank"><img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/lorainwings/maasui-v2/master"></a>
 <a target="__blank"><img alt="GitHub" src="https://img.shields.io/github/license/lorainwings/maasui-v2"></a>
-<!-- <a target="__blank"><img src="https://img.shields.io/static/v1?label=&message=docs%20%26%20demos&color=45b8cd" alt="Docs & Demos"></a> -->
+<a href="https://maasui-v2.vercel.app/" target="__blank"><img src="https://img.shields.io/static/v1?label=&message=docs%20%26%20demos&color=45b8cd" alt="Docs & Demos"></a>
 <br>
 </p>
 

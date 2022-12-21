@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://maasui-v2-g18n.vercel.app",
+  "homepage": "https://maasui-v2.vercel.app/",
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run",
