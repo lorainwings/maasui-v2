@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-<a href="https://maasui-v2.vercel.app/" target="_blank" style="font-size:20px">
+<a href="https://maasui-v2.vercel.app/" target="_blank" style="font-size:30px!important">
 <!-- <img src="https://sli.dev/logo-title.png" alt="Slidev" height="250" width="250"/> -->
 MaasUI
 </a>
