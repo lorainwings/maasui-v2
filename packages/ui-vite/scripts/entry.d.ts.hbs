@@ -1,0 +1,11 @@
+export * from './types/src/entry'
+import MaasUI from './types/src/entry'
+export default MaasUI
+
+declare module 'vue' {
+  export interface GlobalComponents {
+    {{#each components}}
+        {{name}}: typeof import("./types/src/entry").{{component}},
+    {{/each}}
+  }
+}

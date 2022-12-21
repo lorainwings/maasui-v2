@@ -2,9 +2,8 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "MInput",
-
-  render() {
-    return (
+  setup() {
+    return () => (
       <>
         <div>JSX MInput:</div>
         <input></input>

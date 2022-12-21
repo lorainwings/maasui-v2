@@ -10,6 +10,9 @@
       "name": "Launch Program",
       "runtimeExecutable": "pnpm",
       "stopOnEntry": true,
+      "runtimeArgs": [
+        "--filter=ui-vite"
+      ],
       "args": [
         "build"
       ],

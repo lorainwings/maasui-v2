@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "module": "ESNext",
     "lib": [
@@ -18,8 +20,7 @@
     "env.d.ts",
   ],
   "exclude": [
-    "node_modules"
-  ],
-  "esModuleInterop": true,
-  "allowSyntheticDefaultImports": "true"
+    "node_modules",
+    "dist/**/*"
+  ]
 }

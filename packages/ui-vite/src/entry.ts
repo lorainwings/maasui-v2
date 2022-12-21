@@ -1,8 +1,9 @@
 import { App } from "vue";
-import MButton from "./Button";
-import MInput from "./input";
-import MToast from "./toast/index.vue";
-import MTimer from "./timer";
+import { Button } from "./Button";
+import { Timer } from "./Timer";
+import { Input } from "./Input";
+import Toast from "./toast/index.vue";
+import "uno.css";
 
 // type Tnames = 'MButton' | 'MInput' | 'MToast' | 'MTimer'
 // type Telem = Record<Tnames, Component>
@@ -14,10 +15,10 @@ import MTimer from "./timer";
 //   return o
 // }, {} as Record<Tnames, unknown>)
 // const { MButton, MInput, MToast, MTimer } = elements
-const components = [MButton, MInput, MToast, MTimer];
+const components = [Button, Input, Toast, Timer];
 
 // 导出单独组件
-export { MButton, MInput, MToast, MTimer };
+export { Button, Input, Toast, Timer };
 // 全部导出
 export default {
   install(app: App): void {

@@ -15,8 +15,8 @@
     "vite": "^3.2.3"
   },
   "devDependencies": {
-    "husky": "^8.0.2",
     "@commitlint/cli": "17.0.2",
-    "@commitlint/config-conventional": "17.0.2"
+    "@commitlint/config-conventional": "17.0.2",
+    "husky": "^8.0.2"
   }
 }
